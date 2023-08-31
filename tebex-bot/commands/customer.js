@@ -62,7 +62,7 @@ module.exports = {
             .setThumbnail(interaction.guild.iconURL())
             .addField("Hi", `<@${interaction.user.id}>`,)
             .addField("Open Ticket", `You can request support through this channel`)
-            .setFooter(`${footer} - Made By Cryptonized`, interaction.guild.iconURL());
+            .setFooter(`${footer} - Made By NakreS`, interaction.guild.iconURL());
         channel.send({ embeds: [chanelEmbed] })
 
         const packages = data.packages.map(package => package.name)
