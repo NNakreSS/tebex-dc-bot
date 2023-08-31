@@ -5,11 +5,7 @@ const bots = [
   {
     name: 'tebex-bot',
     script: 'index.js',
-  },
-  {
-    name: 'tebex-bot-2',
-    script: 'index.js',
-  },
+  }
 ];
 
 bots.forEach((bot) => {
